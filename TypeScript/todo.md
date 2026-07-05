@@ -22,7 +22,7 @@
   - [x] Backstage pass : quality → 0 après concert
   - [x] Backstage pass : quality jamais > 50
   - [x] Conjured : quality -2 par jour
-  - [ ] Conjured : quality jamais < 0
+  - [x] Conjured : quality jamais < 0
 
   ## 3. Refactorer `gilded-rose.ts`
   - [ ] Extraire `increaseQuality` / `decreaseQuality`

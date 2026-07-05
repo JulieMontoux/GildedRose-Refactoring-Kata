@@ -30,5 +30,5 @@
   - [x] Simplifier `updateQuality` avec `for...of`
 
   ## 4. Implémenter Conjured
-  - [ ] Ajouter bloc Conjured dans `updateItem`
-  - [ ] Vérifier tests Conjured verts
+  - [x] Ajouter bloc Conjured dans `updateItem`
+  - [x] Vérifier tests Conjured verts

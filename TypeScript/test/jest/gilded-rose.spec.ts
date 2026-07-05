@@ -70,4 +70,16 @@ describe('Gilded Rose', () => {
     const items = gildedRose.updateQuality();
     expect(items[0].quality).toBe(9);
   });
+
+  it('Backstage pass augmente la qualité de 2 quand égal à 10 jours', () => {
+    // 10 jours
+    const gildedRose = new GildedRose([new Item('Backstage passes to a TAFKAL80ETC concert', 10, 8)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(10);
+  });
+  it('Backstage pass augmente la qualité de 2 quand moins de 10 jours', () => {
+    const gildedRose2 = new GildedRose([new Item('Backstage passes to a TAFKAL80ETC concert', 9, 8)]);
+    const items2 = gildedRose2.updateQuality();
+    expect(items2[0].quality).toBe(10);
+  });
 });

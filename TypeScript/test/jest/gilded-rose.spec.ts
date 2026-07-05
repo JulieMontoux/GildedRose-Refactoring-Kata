@@ -107,4 +107,13 @@ describe('Gilded Rose', () => {
     const items = gildedRose.updateQuality();
     expect(items[0].quality).toBe(50);
   });
+
+  // Conjured Item
+  // En erreur puisque pas implémenté
+  it('Conjured dégrade la qualité de 2 par jour', () => {
+    const gildedRose = new GildedRose([new Item('Conjured Mana Cake', 5, 10)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(8);
+  });
+
 });

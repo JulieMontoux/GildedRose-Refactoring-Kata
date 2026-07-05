@@ -21,7 +21,7 @@
   - [x] Backstage pass : quality +3 quand ≤ 5 jours
   - [x] Backstage pass : quality → 0 après concert
   - [x] Backstage pass : quality jamais > 50
-  - [ ] Conjured : quality -2 par jour
+  - [x] Conjured : quality -2 par jour
   - [ ] Conjured : quality jamais < 0
 
   ## 3. Refactorer `gilded-rose.ts`

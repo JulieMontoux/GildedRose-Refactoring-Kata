@@ -13,7 +13,7 @@
   - [x] Aged Brie : quality monte de 1
   - [x] Aged Brie : quality monte de 2 après sell by
   date
-  - [ ] Aged Brie : quality jamais > 50
+  - [x] Aged Brie : quality jamais > 50
   - [ ] Sulfuras : quality ne change jamais
   - [ ] Sulfuras : sellIn ne change jamais
   - [ ] Backstage pass : quality +1 quand > 10 jours

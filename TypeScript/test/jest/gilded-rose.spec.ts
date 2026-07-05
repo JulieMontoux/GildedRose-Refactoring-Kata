@@ -13,4 +13,10 @@ describe('Gilded Rose', () => {
     const items = gildedRose.updateQuality();
     expect(items[0].quality).toBe(9);
   });
+
+  it('baisse le sellIn de 1 par jour', () => {
+    const gildedRose = new GildedRose([new Item('foo', 5, 10)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].sellIn).toBe(4);
+  });
 });

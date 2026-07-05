@@ -109,14 +109,12 @@ describe('Gilded Rose', () => {
   });
 
   // Conjured Item
-  // En erreur puisque pas implémenté
-  //it('Conjured dégrade la qualité de 2 par jour', () => {
-  //  const gildedRose = new GildedRose([new Item('Conjured Mana Cake', 5, 10)]);
-  //  const items = gildedRose.updateQuality();
-  //  expect(items[0].quality).toBe(8);
-  //});
+  it('Conjured dégrade la qualité de 2 par jour', () => {
+    const gildedRose = new GildedRose([new Item('Conjured Mana Cake', 5, 10)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(8);
+  });
 
-  // Passe parce que la qualité ne dépasse jamais 0, dans aucun des cas
   it('la qualité de Conjured ne descend jamais en dessous de 0', () => {
     const gildedRose = new GildedRose([new Item('Conjured Mana Cake', 5, 1)]);
     const items = gildedRose.updateQuality();

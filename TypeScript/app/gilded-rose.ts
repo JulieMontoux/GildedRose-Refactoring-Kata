@@ -58,6 +58,17 @@ export class GildedRose {
       return;
     }
 
+    if (item.name.startsWith('Conjured')) {
+      this.decreaseQuality(item);
+      this.decreaseQuality(item);
+      item.sellIn--;
+      if (item.sellIn < 0) {
+        this.decreaseQuality(item);
+        this.decreaseQuality(item);
+      }
+      return;
+    }
+
     this.decreaseQuality(item);
     item.sellIn--;
     if (item.sellIn < 0) {

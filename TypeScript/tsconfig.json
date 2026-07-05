@@ -8,13 +8,12 @@
     "baseUrl": "./",
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "types": ["jest"],
     "paths": {
       "@/*": [
         "app/*"
       ]
     }
   },
-  "exclude": [
-    "node_modules"
-  ]
+   "exclude": ["node_modules", "coverage"]
 }

@@ -19,7 +19,7 @@
   - [x] Backstage pass : quality +1 quand > 10 jours
   - [x] Backstage pass : quality +2 quand ≤ 10 jours
   - [x] Backstage pass : quality +3 quand ≤ 5 jours
-  - [ ] Backstage pass : quality → 0 après concert
+  - [x] Backstage pass : quality → 0 après concert
   - [ ] Backstage pass : quality jamais > 50
   - [ ] Conjured : quality -2 par jour
   - [ ] Conjured : quality jamais < 0

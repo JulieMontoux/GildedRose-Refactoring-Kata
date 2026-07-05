@@ -25,9 +25,9 @@
   - [x] Conjured : quality jamais < 0
 
   ## 3. Refactorer `gilded-rose.ts`
-  - [ ] Extraire `increaseQuality` / `decreaseQuality`
-  - [ ] Extraire `updateItem` par type
-  - [ ] Simplifier `updateQuality` avec `for...of`
+  - [x] Extraire `increaseQuality` / `decreaseQuality`
+  - [x] Extraire `updateItem` par type
+  - [x] Simplifier `updateQuality` avec `for...of`
 
   ## 4. Implémenter Conjured
   - [ ] Ajouter bloc Conjured dans `updateItem`

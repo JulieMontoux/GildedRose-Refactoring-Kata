@@ -79,20 +79,20 @@ describe('Gilded Rose', () => {
   });
   
   it('Backstage pass augmente la qualité de 2 quand moins de 10 jours', () => {
-    const gildedRose2 = new GildedRose([new Item('Backstage passes to a TAFKAL80ETC concert', 9, 8)]);
-    const items2 = gildedRose2.updateQuality();
-    expect(items2[0].quality).toBe(10);
+    const gildedRose = new GildedRose([new Item('Backstage passes to a TAFKAL80ETC concert', 9, 8)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(10);
   });
 
   it('Backstage pass augmente la qualité de 3 quand égal à 5 jours', () => {
-    const gildedRose2 = new GildedRose([new Item('Backstage passes to a TAFKAL80ETC concert', 5, 8)]);
-    const items2 = gildedRose2.updateQuality();
-    expect(items2[0].quality).toBe(11);
+    const gildedRose = new GildedRose([new Item('Backstage passes to a TAFKAL80ETC concert', 5, 8)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(11);
   });
 
   it('Backstage pass augmente la qualité de 3 quand moins de 5 jours', () => {
-    const gildedRose2 = new GildedRose([new Item('Backstage passes to a TAFKAL80ETC concert', 4, 8)]);
-    const items2 = gildedRose2.updateQuality();
-    expect(items2[0].quality).toBe(11);
+    const gildedRose = new GildedRose([new Item('Backstage passes to a TAFKAL80ETC concert', 4, 8)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(11);
   });
 });

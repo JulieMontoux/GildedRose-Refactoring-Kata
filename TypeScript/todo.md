@@ -11,7 +11,7 @@
    date
   - [x] Normal item : quality jamais < 0
   - [x] Aged Brie : quality monte de 1
-  - [ ] Aged Brie : quality monte de 2 après sell by
+  - [x] Aged Brie : quality monte de 2 après sell by
   date
   - [ ] Aged Brie : quality jamais > 50
   - [ ] Sulfuras : quality ne change jamais

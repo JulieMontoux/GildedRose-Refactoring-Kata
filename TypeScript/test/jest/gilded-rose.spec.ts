@@ -31,4 +31,11 @@ describe('Gilded Rose', () => {
     const items = gildedRose.updateQuality();
     expect(items[0].quality).toBe(8);
   });
+
+  // Aged Brie item
+  it('Aged Brie augmente la qualité de 1 par jour', () => {
+    const gildedRose = new GildedRose([new Item('Aged Brie', 5, 8)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(9);
+  });
 });

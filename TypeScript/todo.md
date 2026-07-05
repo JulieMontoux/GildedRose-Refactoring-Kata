@@ -5,12 +5,12 @@
   - [x] Lire `GildedRoseRequirements.md`
 
   ## 2. Écrire les tests
-  - [ ] Normal item : quality baisse de 1 par jour
-  - [ ] Normal item : sellIn baisse de 1 par jour
-  - [ ] Normal item : quality baisse de 2 après sell by
+  - [x] Normal item : quality baisse de 1 par jour
+  - [x] Normal item : sellIn baisse de 1 par jour
+  - [x] Normal item : quality baisse de 2 après sell by
    date
-  - [ ] Normal item : quality jamais < 0
-  - [ ] Aged Brie : quality monte de 1
+  - [x] Normal item : quality jamais < 0
+  - [x] Aged Brie : quality monte de 1
   - [ ] Aged Brie : quality monte de 2 après sell by
   date
   - [ ] Aged Brie : quality jamais > 50

@@ -19,4 +19,10 @@ describe('Gilded Rose', () => {
     const items = gildedRose.updateQuality();
     expect(items[0].sellIn).toBe(4);
   });
+
+  it('la qualité ne descend jamais en dessous de 0', () => {
+    const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(0);
+  });
 });
